@@ -1,0 +1,28 @@
+<template>
+  <div id="app">
+    <img width="25%" src="./assets/logo.png">
+    <br>
+    <router-link to="/user">Users</router-link>
+    <br>
+    <router-link to="/userDetail">Users Detail</router-link>
+    <router-view/>
+  </div>
+</template>
+
+<script>
+export default {
+  name: "App",
+  components: {}
+};
+</script>
+
+<style>
+#app {
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
+</style>
