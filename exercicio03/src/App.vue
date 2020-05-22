@@ -2,9 +2,7 @@
   <div id="app">
     <img width="25%" src="./assets/logo.png">
     <br>
-    <router-link to="/user">Users</router-link>
-    <br>
-    <router-link to="/userDetail">Users Detail</router-link>
+    <router-link to="/user">Users</router-link>    
     <router-view/>
   </div>
 </template>

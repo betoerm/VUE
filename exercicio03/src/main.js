@@ -13,7 +13,7 @@ const router = new VueRouter({
       component: UsersRoute
     },
     {
-      path: "user/:id",
+      path: "/user/:id",
       component: UserDetail
     }
   ]
